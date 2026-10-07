@@ -1,0 +1,1321 @@
+{
+ "nodes": [
+  {
+   "id": "n0",
+   "type": "text",
+   "text": "**[[CM]]**\nМД — маржинальный доход",
+   "x": 0,
+   "y": 0,
+   "width": 380,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "n1",
+   "type": "text",
+   "text": "**[[NR]]**\nЧВ — чистая выручка",
+   "x": 440,
+   "y": 110,
+   "width": 380,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "text": "**[[R1]]**\nТорговые комиссии (нетто)",
+   "x": 880,
+   "y": 220,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n3",
+   "type": "text",
+   "text": "**[[TURN]]**\nОборот клиентов за период",
+   "x": 1320,
+   "y": 330,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "text": "**[[ACTIVE]]**\nАктивные клиенты (среднемесячно)",
+   "x": 1760,
+   "y": 440,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "text": "**[[TPA]]**\nСделок в месяц на активного клиента",
+   "x": 1760,
+   "y": 550,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "text": "**[[TICKET]]**\nСредний объём сделки",
+   "x": 1760,
+   "y": 660,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "text": "**[[TAKE]]**\nКомиссия брокера, % от оборота (эффективная, с учётом тарифов и скидок)",
+   "x": 1320,
+   "y": 770,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "text": "**[[EXEC]]**\nЗатраты на исполнение (биржевые, клиринговые, депозитарные сборы, вышестоящий брокер), % от оборота",
+   "x": 1320,
+   "y": 880,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "text": "**[[R2]]**\nМаржинальное кредитование (нетто)",
+   "x": 880,
+   "y": 990,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "text": "**[[MPORT]]**\nМаржинальный портфель, среднее за период",
+   "x": 1320,
+   "y": 1100,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "text": "**[[MRG_PEN]]**\nПроникновение маржинальной торговли: доля фондированных клиентов с задолженностью",
+   "x": 1760,
+   "y": 1210,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "text": "**[[MRG_DEBT]]**\nСредняя задолженность маржинального клиента",
+   "x": 1760,
+   "y": 1320,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "text": "**[[MRG_RATE]]**\nСтавка для клиента по маржинальному кредиту (деньги и ценные бумаги)",
+   "x": 1320,
+   "y": 1430,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "text": "**[[FUND_RATE]]**\nСтоимость фондирования маржинального портфеля",
+   "x": 1320,
+   "y": 1540,
+   "width": 380,
+   "height": 90,
+   "color": "3"
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "text": "**[[R3]]**\nДоход на свободные остатки (нетто)",
+   "x": 880,
+   "y": 1650,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n16",
+   "type": "text",
+   "text": "**[[CASHBAL]]**\nСвободные денежные остатки клиентов",
+   "x": 1320,
+   "y": 1760,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n17",
+   "type": "text",
+   "text": "**[[AUC]]**\nАктивы клиентов, среднее за период",
+   "x": 1760,
+   "y": 1870,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n18",
+   "type": "text",
+   "text": "**[[AUC_PC]]**\nСредние активы на фондированного клиента",
+   "x": 2200,
+   "y": 1980,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "text": "**[[CASH]]**\nДоля свободных денежных средств в активах клиентов",
+   "x": 1760,
+   "y": 2090,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "text": "**[[FLOAT_Y]]**\nДоходность размещения свободных остатков клиентов",
+   "x": 1320,
+   "y": 2200,
+   "width": 380,
+   "height": 90,
+   "color": "3"
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "text": "**[[FLOAT_P]]**\nСтавка, выплачиваемая клиентам на свободные остатки",
+   "x": 1320,
+   "y": 2310,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n22",
+   "type": "text",
+   "text": "**[[R4]]**\nКонвертация валют",
+   "x": 880,
+   "y": 2420,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n23",
+   "type": "text",
+   "text": "**[[FXVOLUME]]**\nОбъём конвертаций за период",
+   "x": 1320,
+   "y": 2530,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n24",
+   "type": "text",
+   "text": "**[[FX_PEN]]**\nДоля фондированных клиентов, совершающих конвертации",
+   "x": 1760,
+   "y": 2640,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n25",
+   "type": "text",
+   "text": "**[[FX_VOL]]**\nОбъём конвертаций на конвертирующего клиента в год",
+   "x": 1760,
+   "y": 2750,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n26",
+   "type": "text",
+   "text": "**[[FX_SPREAD]]**\nКомиссия и спред за конвертацию, % от объёма",
+   "x": 1320,
+   "y": 2860,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "text": "**[[R5]]**\nРазмещения и продукты",
+   "x": 880,
+   "y": 2970,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "text": "**[[PRDVOLUME]]**\nОбъём продаж продуктов и размещений",
+   "x": 1320,
+   "y": 3080,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n29",
+   "type": "text",
+   "text": "**[[PRD_PEN]]**\nДоля фондированных клиентов, купивших размещения или продукты за год (ИК — доля клиентов-эмитентов, проведших размещение)",
+   "x": 1760,
+   "y": 3190,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n30",
+   "type": "text",
+   "text": "**[[PRD_VOL]]**\nСредний объём покупок продуктов на клиента в год (ИК — средний объём размещения)",
+   "x": 1760,
+   "y": 3300,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n31",
+   "type": "text",
+   "text": "**[[PRD_FEE]]**\nСредняя комиссия или маржа по продуктам и размещениям, % от объёма",
+   "x": 1320,
+   "y": 3410,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n32",
+   "type": "text",
+   "text": "**[[R6]]**\nДУ и консультирование",
+   "x": 880,
+   "y": 3520,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n33",
+   "type": "text",
+   "text": "**[[AUM]]**\nАктивы в ДУ и на консультировании",
+   "x": 1320,
+   "y": 3630,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n34",
+   "type": "text",
+   "text": "**[[AM_SHARE]]**\nДоля активов клиентов в ДУ, модельных портфелях и на консультировании",
+   "x": 1760,
+   "y": 3740,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n35",
+   "type": "text",
+   "text": "**[[AM_FEE]]**\nКомиссия за управление и консультирование, % годовых (вкл. success fee)",
+   "x": 1320,
+   "y": 3850,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n36",
+   "type": "text",
+   "text": "**[[R7]]**\nПодписки и сервисные комиссии",
+   "x": 880,
+   "y": 3960,
+   "width": 380,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "n37",
+   "type": "text",
+   "text": "**[[SUBS]]**\nПлатные подписчики",
+   "x": 1320,
+   "y": 4070,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n38",
+   "type": "text",
+   "text": "**[[SUB_PEN]]**\nДоля фондированных клиентов с платной подпиской или премиальным тарифом",
+   "x": 1760,
+   "y": 4180,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n39",
+   "type": "text",
+   "text": "**[[SUB_PRICE]]**\nСтоимость подписки или премиального обслуживания в год",
+   "x": 1320,
+   "y": 4290,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n40",
+   "type": "text",
+   "text": "**[[CUST_FEE]]**\nДепозитарная и кастодиальная комиссия, % от активов в год",
+   "x": 1320,
+   "y": 4400,
+   "width": 380,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "n41",
+   "type": "text",
+   "text": "**[[CTS]]**\nЗО — затраты на обслуживание",
+   "x": 440,
+   "y": 4510,
+   "width": 380,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "n42",
+   "type": "text",
+   "text": "**[[C1]]**\nПоддержка клиентов",
+   "x": 880,
+   "y": 4620,
+   "width": 380,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "n43",
+   "type": "text",
+   "text": "**[[SUP_RATE]]**\nОбращений в поддержку на фондированного клиента в год",
+   "x": 1320,
+   "y": 4730,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n44",
+   "type": "text",
+   "text": "**[[SUP_COST]]**\nСтоимость обработки одного обращения",
+   "x": 1320,
+   "y": 4840,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n45",
+   "type": "text",
+   "text": "**[[C2]]**\nОнбординг и KYC",
+   "x": 880,
+   "y": 4950,
+   "width": 380,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "n46",
+   "type": "text",
+   "text": "**[[LEADS]]**\nЗаявки на открытие счёта за период (ИК — потенциальные клиенты в воронке продаж)",
+   "x": 1320,
+   "y": 5060,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n47",
+   "type": "text",
+   "text": "**[[KYC_UNIT]]**\nСтоимость автоматической проверки заявки (KYC/AML-сервисы, документы)",
+   "x": 1320,
+   "y": 5170,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n48",
+   "type": "text",
+   "text": "**[[KYC_MAN]]**\nДоля заявок, требующих ручной проверки",
+   "x": 1320,
+   "y": 5280,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n49",
+   "type": "text",
+   "text": "**[[KYC_MAN_COST]]**\nСтоимость ручной проверки заявки",
+   "x": 1320,
+   "y": 5390,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n50",
+   "type": "text",
+   "text": "**[[C3]]**\nБэк-офис: ручные операции",
+   "x": 880,
+   "y": 5500,
+   "width": 380,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "n51",
+   "type": "text",
+   "text": "**[[OPS_PC]]**\nОпераций бэк-офиса на фондированного клиента в год (вводы/выводы, переводы ЦБ, корп. действия, заявления)",
+   "x": 1320,
+   "y": 5610,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n52",
+   "type": "text",
+   "text": "**[[OPS_MAN]]**\nДоля операций с ручной обработкой (не STP)",
+   "x": 1320,
+   "y": 5720,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n53",
+   "type": "text",
+   "text": "**[[OPS_COST]]**\nСтоимость ручной обработки одной операции",
+   "x": 1320,
+   "y": 5830,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n54",
+   "type": "text",
+   "text": "**[[C4]]**\nПерсональные менеджеры и покрытие",
+   "x": 880,
+   "y": 5940,
+   "width": 380,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "n55",
+   "type": "text",
+   "text": "**[[RM_LOAD]]**\nКлиентов на одного персонального менеджера / сотрудника покрытия (0 — модели нет)",
+   "x": 1320,
+   "y": 6050,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n56",
+   "type": "text",
+   "text": "**[[RM_COST]]**\nПолная годовая стоимость менеджера (ФОТ, налоги, бонусы, рабочее место)",
+   "x": 1320,
+   "y": 6160,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n57",
+   "type": "text",
+   "text": "**[[ACQ]]**\nЗП — затраты на привлечение",
+   "x": 440,
+   "y": 6270,
+   "width": 380,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "n58",
+   "type": "text",
+   "text": "**[[NEW]]**\nНовые фондированные клиенты",
+   "x": 880,
+   "y": 6380,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n59",
+   "type": "text",
+   "text": "**[[CAC]]**\nЗатраты на привлечение одного фондированного клиента (маркетинг, агентские, бонусы)",
+   "x": 880,
+   "y": 6490,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n60",
+   "type": "text",
+   "text": "**[[LOSS]]**\nПТ — потери",
+   "x": 440,
+   "y": 6600,
+   "width": 380,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "n61",
+   "type": "text",
+   "text": "**[[C5]]**\nКредитные потери",
+   "x": 880,
+   "y": 6710,
+   "width": 380,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "n62",
+   "type": "text",
+   "text": "**[[CL]]**\nКредитные потери по маржинальному портфелю, % в год",
+   "x": 1320,
+   "y": 6820,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n63",
+   "type": "text",
+   "text": "**[[C6]]**\nОперационные потери",
+   "x": 880,
+   "y": 6930,
+   "width": 380,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "n64",
+   "type": "text",
+   "text": "**[[OPLOSS]]**\nОперационные потери за период: ошибки, компенсации клиентам, штрафы",
+   "x": 1320,
+   "y": 7040,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "s65",
+   "type": "text",
+   "text": "## Клиентская база — общий драйвер веток R1–R7 и затрат",
+   "x": 0,
+   "y": 7210,
+   "width": 900,
+   "height": 70
+  },
+  {
+   "id": "n66",
+   "type": "text",
+   "text": "**[[N_AVG]]**\nФондированные клиенты, среднее за период",
+   "x": 440,
+   "y": 7320,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n67",
+   "type": "text",
+   "text": "**[[N0]]**\nФондированные клиенты на начало периода",
+   "x": 880,
+   "y": 7430,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n68",
+   "type": "text",
+   "text": "**[[NEW]]**\nНовые фондированные клиенты",
+   "x": 880,
+   "y": 7540,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n69",
+   "type": "text",
+   "text": "**[[LEADS]]**\nЗаявки на открытие счёта за период (ИК — потенциальные клиенты в воронке продаж)",
+   "x": 1320,
+   "y": 7650,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n70",
+   "type": "text",
+   "text": "**[[CR_OPEN]]**\nКонверсия: заявка → открытый счёт (KYC пройден; ИК — договор подписан)",
+   "x": 1320,
+   "y": 7760,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n71",
+   "type": "text",
+   "text": "**[[CR_FUND]]**\nКонверсия: открытый счёт → фондированный (первое пополнение)",
+   "x": 1320,
+   "y": 7870,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n72",
+   "type": "text",
+   "text": "**[[CHURNED]]**\nУшедшие фондированные клиенты",
+   "x": 880,
+   "y": 7980,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n73",
+   "type": "text",
+   "text": "**[[CHURN]]**\nГодовой отток фондированных клиентов (вывели активы ниже порога или закрыли счёт)",
+   "x": 1320,
+   "y": 8090,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n74",
+   "type": "text",
+   "text": "**[[ACTIVE]]**\nАктивные клиенты (среднемесячно)",
+   "x": 440,
+   "y": 8200,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n75",
+   "type": "text",
+   "text": "**[[ACT]]**\nДоля активных: среднемесячная доля фондированных клиентов с ≥1 операцией (сделка, пополнение, покупка продукта или подписки)",
+   "x": 880,
+   "y": 8310,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "s76",
+   "type": "text",
+   "text": "## Производные KPI",
+   "x": 0,
+   "y": 8480,
+   "width": 900,
+   "height": 70
+  },
+  {
+   "id": "n77",
+   "type": "text",
+   "text": "**[[ARPU]]**\nЧистая выручка на фондированного клиента",
+   "x": 440,
+   "y": 8590,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n78",
+   "type": "text",
+   "text": "**[[YIELD]]**\nДоходность активов клиентов",
+   "x": 440,
+   "y": 8700,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n79",
+   "type": "text",
+   "text": "**[[CM_MARGIN]]**\nМаржинальность (МД ÷ ЧВ)",
+   "x": 440,
+   "y": 8810,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n80",
+   "type": "text",
+   "text": "**[[CM_PC]]**\nМД на фондированного клиента",
+   "x": 440,
+   "y": 8920,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n81",
+   "type": "text",
+   "text": "**[[CONTRIB_PC]]**\nВклад клиента до затрат на привлечение, в год",
+   "x": 440,
+   "y": 9030,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n82",
+   "type": "text",
+   "text": "**[[LTV]]**\nLTV — вклад клиента за срок жизни",
+   "x": 440,
+   "y": 9140,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n83",
+   "type": "text",
+   "text": "**[[LTV_CAC]]**\nLTV ÷ CAC",
+   "x": 440,
+   "y": 9250,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n84",
+   "type": "text",
+   "text": "**[[PAYBACK]]**\nСрок окупаемости привлечения",
+   "x": 440,
+   "y": 9360,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "n85",
+   "type": "text",
+   "text": "**[[RATE_SHARE]]**\nДоля ЧВ, зависящая от процентных ставок",
+   "x": 440,
+   "y": 9470,
+   "width": 380,
+   "height": 90
+  },
+  {
+   "id": "legend",
+   "type": "text",
+   "text": "**Цвета**\n\nзелёный — результат\nголубой — источники дохода\nоранжевый — затраты и потери\nфиолетовый — ценовые рычаги\nжёлтый — внешние факторы",
+   "x": -460,
+   "y": 0,
+   "width": 380,
+   "height": 220
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "n0",
+   "fromSide": "right",
+   "toNode": "n1",
+   "toSide": "left"
+  },
+  {
+   "id": "e2",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n2",
+   "toSide": "left"
+  },
+  {
+   "id": "e3",
+   "fromNode": "n2",
+   "fromSide": "right",
+   "toNode": "n3",
+   "toSide": "left"
+  },
+  {
+   "id": "e4",
+   "fromNode": "n3",
+   "fromSide": "right",
+   "toNode": "n4",
+   "toSide": "left"
+  },
+  {
+   "id": "e5",
+   "fromNode": "n3",
+   "fromSide": "right",
+   "toNode": "n5",
+   "toSide": "left"
+  },
+  {
+   "id": "e6",
+   "fromNode": "n3",
+   "fromSide": "right",
+   "toNode": "n6",
+   "toSide": "left"
+  },
+  {
+   "id": "e7",
+   "fromNode": "n2",
+   "fromSide": "right",
+   "toNode": "n7",
+   "toSide": "left"
+  },
+  {
+   "id": "e8",
+   "fromNode": "n2",
+   "fromSide": "right",
+   "toNode": "n8",
+   "toSide": "left"
+  },
+  {
+   "id": "e9",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n9",
+   "toSide": "left"
+  },
+  {
+   "id": "e10",
+   "fromNode": "n9",
+   "fromSide": "right",
+   "toNode": "n10",
+   "toSide": "left"
+  },
+  {
+   "id": "e11",
+   "fromNode": "n10",
+   "fromSide": "right",
+   "toNode": "n11",
+   "toSide": "left"
+  },
+  {
+   "id": "e12",
+   "fromNode": "n10",
+   "fromSide": "right",
+   "toNode": "n12",
+   "toSide": "left"
+  },
+  {
+   "id": "e13",
+   "fromNode": "n9",
+   "fromSide": "right",
+   "toNode": "n13",
+   "toSide": "left"
+  },
+  {
+   "id": "e14",
+   "fromNode": "n9",
+   "fromSide": "right",
+   "toNode": "n14",
+   "toSide": "left"
+  },
+  {
+   "id": "e15",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n15",
+   "toSide": "left"
+  },
+  {
+   "id": "e16",
+   "fromNode": "n15",
+   "fromSide": "right",
+   "toNode": "n16",
+   "toSide": "left"
+  },
+  {
+   "id": "e17",
+   "fromNode": "n16",
+   "fromSide": "right",
+   "toNode": "n17",
+   "toSide": "left"
+  },
+  {
+   "id": "e18",
+   "fromNode": "n17",
+   "fromSide": "right",
+   "toNode": "n18",
+   "toSide": "left"
+  },
+  {
+   "id": "e19",
+   "fromNode": "n16",
+   "fromSide": "right",
+   "toNode": "n19",
+   "toSide": "left"
+  },
+  {
+   "id": "e20",
+   "fromNode": "n15",
+   "fromSide": "right",
+   "toNode": "n20",
+   "toSide": "left"
+  },
+  {
+   "id": "e21",
+   "fromNode": "n15",
+   "fromSide": "right",
+   "toNode": "n21",
+   "toSide": "left"
+  },
+  {
+   "id": "e22",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n22",
+   "toSide": "left"
+  },
+  {
+   "id": "e23",
+   "fromNode": "n22",
+   "fromSide": "right",
+   "toNode": "n23",
+   "toSide": "left"
+  },
+  {
+   "id": "e24",
+   "fromNode": "n23",
+   "fromSide": "right",
+   "toNode": "n24",
+   "toSide": "left"
+  },
+  {
+   "id": "e25",
+   "fromNode": "n23",
+   "fromSide": "right",
+   "toNode": "n25",
+   "toSide": "left"
+  },
+  {
+   "id": "e26",
+   "fromNode": "n22",
+   "fromSide": "right",
+   "toNode": "n26",
+   "toSide": "left"
+  },
+  {
+   "id": "e27",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n27",
+   "toSide": "left"
+  },
+  {
+   "id": "e28",
+   "fromNode": "n27",
+   "fromSide": "right",
+   "toNode": "n28",
+   "toSide": "left"
+  },
+  {
+   "id": "e29",
+   "fromNode": "n28",
+   "fromSide": "right",
+   "toNode": "n29",
+   "toSide": "left"
+  },
+  {
+   "id": "e30",
+   "fromNode": "n28",
+   "fromSide": "right",
+   "toNode": "n30",
+   "toSide": "left"
+  },
+  {
+   "id": "e31",
+   "fromNode": "n27",
+   "fromSide": "right",
+   "toNode": "n31",
+   "toSide": "left"
+  },
+  {
+   "id": "e32",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n32",
+   "toSide": "left"
+  },
+  {
+   "id": "e33",
+   "fromNode": "n32",
+   "fromSide": "right",
+   "toNode": "n33",
+   "toSide": "left"
+  },
+  {
+   "id": "e34",
+   "fromNode": "n33",
+   "fromSide": "right",
+   "toNode": "n34",
+   "toSide": "left"
+  },
+  {
+   "id": "e35",
+   "fromNode": "n32",
+   "fromSide": "right",
+   "toNode": "n35",
+   "toSide": "left"
+  },
+  {
+   "id": "e36",
+   "fromNode": "n1",
+   "fromSide": "right",
+   "toNode": "n36",
+   "toSide": "left"
+  },
+  {
+   "id": "e37",
+   "fromNode": "n36",
+   "fromSide": "right",
+   "toNode": "n37",
+   "toSide": "left"
+  },
+  {
+   "id": "e38",
+   "fromNode": "n37",
+   "fromSide": "right",
+   "toNode": "n38",
+   "toSide": "left"
+  },
+  {
+   "id": "e39",
+   "fromNode": "n36",
+   "fromSide": "right",
+   "toNode": "n39",
+   "toSide": "left"
+  },
+  {
+   "id": "e40",
+   "fromNode": "n36",
+   "fromSide": "right",
+   "toNode": "n40",
+   "toSide": "left"
+  },
+  {
+   "id": "e41",
+   "fromNode": "n0",
+   "fromSide": "right",
+   "toNode": "n41",
+   "toSide": "left"
+  },
+  {
+   "id": "e42",
+   "fromNode": "n41",
+   "fromSide": "right",
+   "toNode": "n42",
+   "toSide": "left"
+  },
+  {
+   "id": "e43",
+   "fromNode": "n42",
+   "fromSide": "right",
+   "toNode": "n43",
+   "toSide": "left"
+  },
+  {
+   "id": "e44",
+   "fromNode": "n42",
+   "fromSide": "right",
+   "toNode": "n44",
+   "toSide": "left"
+  },
+  {
+   "id": "e45",
+   "fromNode": "n41",
+   "fromSide": "right",
+   "toNode": "n45",
+   "toSide": "left"
+  },
+  {
+   "id": "e46",
+   "fromNode": "n45",
+   "fromSide": "right",
+   "toNode": "n46",
+   "toSide": "left"
+  },
+  {
+   "id": "e47",
+   "fromNode": "n45",
+   "fromSide": "right",
+   "toNode": "n47",
+   "toSide": "left"
+  },
+  {
+   "id": "e48",
+   "fromNode": "n45",
+   "fromSide": "right",
+   "toNode": "n48",
+   "toSide": "left"
+  },
+  {
+   "id": "e49",
+   "fromNode": "n45",
+   "fromSide": "right",
+   "toNode": "n49",
+   "toSide": "left"
+  },
+  {
+   "id": "e50",
+   "fromNode": "n41",
+   "fromSide": "right",
+   "toNode": "n50",
+   "toSide": "left"
+  },
+  {
+   "id": "e51",
+   "fromNode": "n50",
+   "fromSide": "right",
+   "toNode": "n51",
+   "toSide": "left"
+  },
+  {
+   "id": "e52",
+   "fromNode": "n50",
+   "fromSide": "right",
+   "toNode": "n52",
+   "toSide": "left"
+  },
+  {
+   "id": "e53",
+   "fromNode": "n50",
+   "fromSide": "right",
+   "toNode": "n53",
+   "toSide": "left"
+  },
+  {
+   "id": "e54",
+   "fromNode": "n41",
+   "fromSide": "right",
+   "toNode": "n54",
+   "toSide": "left"
+  },
+  {
+   "id": "e55",
+   "fromNode": "n54",
+   "fromSide": "right",
+   "toNode": "n55",
+   "toSide": "left"
+  },
+  {
+   "id": "e56",
+   "fromNode": "n54",
+   "fromSide": "right",
+   "toNode": "n56",
+   "toSide": "left"
+  },
+  {
+   "id": "e57",
+   "fromNode": "n0",
+   "fromSide": "right",
+   "toNode": "n57",
+   "toSide": "left"
+  },
+  {
+   "id": "e58",
+   "fromNode": "n57",
+   "fromSide": "right",
+   "toNode": "n58",
+   "toSide": "left"
+  },
+  {
+   "id": "e59",
+   "fromNode": "n57",
+   "fromSide": "right",
+   "toNode": "n59",
+   "toSide": "left"
+  },
+  {
+   "id": "e60",
+   "fromNode": "n0",
+   "fromSide": "right",
+   "toNode": "n60",
+   "toSide": "left"
+  },
+  {
+   "id": "e61",
+   "fromNode": "n60",
+   "fromSide": "right",
+   "toNode": "n61",
+   "toSide": "left"
+  },
+  {
+   "id": "e62",
+   "fromNode": "n61",
+   "fromSide": "right",
+   "toNode": "n62",
+   "toSide": "left"
+  },
+  {
+   "id": "e63",
+   "fromNode": "n60",
+   "fromSide": "right",
+   "toNode": "n63",
+   "toSide": "left"
+  },
+  {
+   "id": "e64",
+   "fromNode": "n63",
+   "fromSide": "right",
+   "toNode": "n64",
+   "toSide": "left"
+  },
+  {
+   "id": "e67",
+   "fromNode": "n66",
+   "fromSide": "right",
+   "toNode": "n67",
+   "toSide": "left"
+  },
+  {
+   "id": "e68",
+   "fromNode": "n66",
+   "fromSide": "right",
+   "toNode": "n68",
+   "toSide": "left"
+  },
+  {
+   "id": "e69",
+   "fromNode": "n68",
+   "fromSide": "right",
+   "toNode": "n69",
+   "toSide": "left"
+  },
+  {
+   "id": "e70",
+   "fromNode": "n68",
+   "fromSide": "right",
+   "toNode": "n70",
+   "toSide": "left"
+  },
+  {
+   "id": "e71",
+   "fromNode": "n68",
+   "fromSide": "right",
+   "toNode": "n71",
+   "toSide": "left"
+  },
+  {
+   "id": "e72",
+   "fromNode": "n66",
+   "fromSide": "right",
+   "toNode": "n72",
+   "toSide": "left"
+  },
+  {
+   "id": "e73",
+   "fromNode": "n72",
+   "fromSide": "right",
+   "toNode": "n73",
+   "toSide": "left"
+  },
+  {
+   "id": "e75",
+   "fromNode": "n74",
+   "fromSide": "right",
+   "toNode": "n75",
+   "toSide": "left"
+  }
+ ]
+}
