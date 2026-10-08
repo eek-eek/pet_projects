@@ -3,7 +3,8 @@
 
 Собирает obsidian/Дорожная карта брокера/: главная заметка, этап 1, решения,
 заметка на каждую метрику (формула, связи, значения модели, чувствительность),
-дерево метрик (заметка и холст .canvas), отчёт с бенчмарками и модель Excel.
+дерево метрик (заметка и холст .canvas), отчёт с бенчмарками, модель Excel
+и форма выбора метрик.
 
 Значения берутся из пересчитанного broker_roadmap_model.xlsx, описания — из
 tools/build_model.py. Раздел «Мои заметки» в заметках метрик сохраняется
@@ -25,6 +26,8 @@ ROOT = Path(__file__).resolve().parent.parent          # broker-roadmap/
 REPO = ROOT.parent
 VAULT = REPO / "obsidian" / "Дорожная карта брокера"
 MODEL_XLSX = ROOT / "broker_roadmap_model.xlsx"
+SELECTION_XLSX = ROOT / "01b_best_practice_metrics.xlsx"
+SELECTION_TITLE = "Выбор метрик.xlsx"
 REPORT_TITLE = "Бенчмарки метрик публичных брокеров"
 MY_NOTES = "## Мои заметки"
 
@@ -376,6 +379,7 @@ def link_codes_in_markdown(text):
 def to_vault_markdown(text):
     """Ссылки репозитория → ссылки Obsidian, `КОД` → [[КОД]]."""
     text = text.replace("[broker_roadmap_model.xlsx](broker_roadmap_model.xlsx)", "[[broker_roadmap_model.xlsx]]")
+    text = text.replace(f"[{SELECTION_XLSX.name}]({SELECTION_XLSX.name})", f"[[{SELECTION_TITLE}]]")
     text = re.sub(r"\[([^\]]+)\]\(\.\./reports/[^)]+\)", lambda m: (
         f"[[{REPORT_TITLE}]]" if m.group(1).startswith("reports/") else f"[[{REPORT_TITLE}|{m.group(1)}]]"), text)
     return link_codes_in_markdown(text)
@@ -400,6 +404,7 @@ def export_documents():
         shutil.copy(f, bench / "Заметки исследования" / f.name)
     (VAULT / "Модель").mkdir(exist_ok=True)
     shutil.copy(MODEL_XLSX, VAULT / "Модель" / MODEL_XLSX.name)
+    shutil.copy(SELECTION_XLSX, VAULT / SELECTION_TITLE)
 
 
 # --- справочник метрик одной страницей ---------------------------------------------
@@ -544,7 +549,7 @@ def export_home(model, globals_):
     text = f"""# Дорожная карта брокера
 
 > [!info] Статус
-> Этап 1 «Метрики» — в работе: решения внесены, метрики на согласовании.
+> Этап 1 «Метрики» — в работе: идёт выбор метрик из стандартного набора отрасли.
 
 Цель — дорожная карта доработок и продуктовых инициатив брокера, где каждый проект связан с измеримым эффектом на маржинальный доход.
 
@@ -559,7 +564,7 @@ def export_home(model, globals_):
 
 ## С чего начать
 
-1. [[Метрики — лучшие практики]] — стандартный набор метрик отрасли: что раскрывают ведущие брокеры.
+1. [[Метрики — лучшие практики]] — стандартный набор метрик отрасли: что раскрывают ведущие брокеры. Выбор метрик — в форме [[{SELECTION_TITLE}]].
 2. [[Этап 1 — метрики]] — главный документ этапа: решения и выводы.
 3. [[Справочник метрик]] — метрики модели на одной странице с пояснениями и значениями.
 4. [[Дерево метрик]] — структура модели по уровням; визуально — [[Дерево метрик.canvas]].
