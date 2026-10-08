@@ -373,12 +373,19 @@ def link_codes_in_markdown(text):
     return "\n".join(out) + "\n"
 
 
+def to_vault_markdown(text):
+    """Ссылки репозитория → ссылки Obsidian, `КОД` → [[КОД]]."""
+    text = text.replace("[broker_roadmap_model.xlsx](broker_roadmap_model.xlsx)", "[[broker_roadmap_model.xlsx]]")
+    text = re.sub(r"\[([^\]]+)\]\(\.\./reports/[^)]+\)", lambda m: (
+        f"[[{REPORT_TITLE}]]" if m.group(1).startswith("reports/") else f"[[{REPORT_TITLE}|{m.group(1)}]]"), text)
+    return link_codes_in_markdown(text)
+
+
 def export_documents():
-    stage = (ROOT / "01_metrics.md").read_text(encoding="utf-8")
-    stage = stage.replace("[broker_roadmap_model.xlsx](broker_roadmap_model.xlsx)", "[[broker_roadmap_model.xlsx]]")
-    stage = re.sub(r"\[([^\]]+)\]\(\.\./reports/[^)]+\)", lambda m: (
-        f"[[{REPORT_TITLE}]]" if m.group(1).startswith("reports/") else f"[[{REPORT_TITLE}|{m.group(1)}]]"), stage)
-    (VAULT / "Этап 1 — метрики.md").write_text(link_codes_in_markdown(stage), encoding="utf-8")
+    for source, title in [("01_metrics.md", "Этап 1 — метрики"),
+                          ("01b_best_practice_metrics.md", "Метрики — лучшие практики")]:
+        text = (ROOT / source).read_text(encoding="utf-8")
+        (VAULT / f"{title}.md").write_text(to_vault_markdown(text), encoding="utf-8")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     decisions = [line for line in readme.splitlines() if re.match(r"^\| \d{2}\.\d{2}\.\d{4} \|", line)]
@@ -552,12 +559,13 @@ def export_home(model, globals_):
 
 ## С чего начать
 
-1. [[Этап 1 — метрики]] — главный документ: решения и выводы.
-2. [[Справочник метрик]] — все метрики на одной странице с пояснениями и значениями.
-3. [[Дерево метрик]] — структура по уровням; визуально — [[Дерево метрик.canvas]].
-4. [[Решения]] — журнал решений.
-5. [[{REPORT_TITLE}]] — ориентиры по рынку, справочно.
-6. Модель с расчётами — [[broker_roadmap_model.xlsx]], начните с листа «Сводка».
+1. [[Метрики — лучшие практики]] — стандартный набор метрик отрасли: что раскрывают ведущие брокеры.
+2. [[Этап 1 — метрики]] — главный документ этапа: решения и выводы.
+3. [[Справочник метрик]] — метрики модели на одной странице с пояснениями и значениями.
+4. [[Дерево метрик]] — структура модели по уровням; визуально — [[Дерево метрик.canvas]].
+5. [[Решения]] — журнал решений.
+6. [[{REPORT_TITLE}]] — ориентиры по рынку, справочно.
+7. Модель с расчётами — [[broker_roadmap_model.xlsx]], начните с листа «Сводка».
 
 ## Ключевые цифры модели (условные, год 1)
 

@@ -16,6 +16,7 @@
 | Файл | Назначение |
 |---|---|
 | [01_metrics.md](01_metrics.md) | Этап 1: принципы, дерево метрик, чувствительность, челлендж и открытые вопросы |
+| [01b_best_practice_metrics.md](01b_best_practice_metrics.md) | Этап 1: стандартный набор метрик отрасли — что раскрывают ведущие брокеры, и чего нет в модели |
 | [broker_roadmap_model.xlsx](broker_roadmap_model.xlsx) | Модель: сводка, дерево, вводные, чувствительность, расчёт, паспорта метрик |
 | [tools/build_model.py](tools/build_model.py) | Генератор структуры модели (пересобирает файл с нуля) |
 | [tools/export_obsidian.py](tools/export_obsidian.py) | Экспорт проекта в хранилище Obsidian — папка [../obsidian/](../obsidian/) |
